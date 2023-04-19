@@ -1,0 +1,59 @@
+<html>
+    <head>
+    <title>Навчальний файл</title>
+    </head>
+    <BODY BGCOLOR="#FFFFFF" TEXT="#000000">
+        <h1>Про cебе</h1>
+        <p align="justify">  Мене звати Максим і я є 17-річним жителем міста Полтава. Я займаюся спортом. Мій спортивний досвід розвивається з кожним роком, і я постійно працюю над своїми навичками.
+            Мені подобається відчувати свій прогрес та бачити, як я розвививаюсь. <b><u><i>Крім спорту, я люблю проводити час з друзями та сім'єю, читати книги та вивчати нові речі.</i></u></b>
+             Я вірю в те, що незалежно від того, наскільки складним може бути моє життя, я завжди зможу знайти силу та визначити свої цілі.</p>
+        <h1>Моє хоббі</h1>
+        <p align="justify">Моє хоббі це волейбол.<i><u><b>Я почав грати у нього вже кілька років тому Я постійно вдосконалюю свої техніки та навички, і я дуже радий, коли бачу, що можу докладати свою частку до команди.</i></u></b>
+            У волейболі мені подобається не тільки фізична активність, але й емоційна складова - можливість допомагати один одному та досягати спільної мети..
+           Я дуже захоплений своїм хоббі .</p>
+           <h2>Програмування</h2>
+           <br>
+           mple: Roots of a Quadratic Equation<br>
+// program to solve quadratic equation<br>
+let root1, root2;<br>
+<br>
+// take input from the user<br>
+let a = prompt("Enter the first number: ");<br>
+let b = prompt("Enter the second number: ");<br>
+let c = prompt("Enter the third number: ");<br>
+<br>
+// calculate discriminant<br>
+let discriminant = b * b - 4 * a * c;<br>
+<br>
+// condition for real and different roots<br>
+if (discriminant > 0) {<br>
+    &ensp;  root1 = (-b + Math.sqrt(discriminant)) / (2 * a);<br>
+    &ensp;  root2 = (-b - Math.sqrt(discriminant)) / (2 * a);<br>
+    &ensp;  <br>
+    &ensp;  // result<br>
+    &ensp;  console.log(`The roots of quadratic equation are ${root1} and ${root2}`);<br>
+}<br>
+<br>
+// condition for real and equal roots<br>
+else if (discriminant == 0) {<br>
+    &ensp;  root1 = root2 = -b / (2 * a);<br>
+    &ensp; <br>
+    &ensp; // result<br>
+    &ensp; console.log(`The roots of quadratic equation are ${root1} and ${root2}`);<br>
+}<br>
+<br>
+// if roots are not real<br>
+else {<br>
+    &ensp;  let realPart = (-b / (2 * a)).toFixed(2);<br>
+    &ensp;  let imagPart = (Math.sqrt(-discriminant) / (2 * a)).toFixed(2);<br>
+    &ensp;  <br>
+    &ensp;  // result<br>
+    &ensp; console.log(<br>
+    &ensp; `The roots of quadratic equation are ${realPart} + ${imagPart}i and ${realPart} - ${imagPart}i`<br>
+    &ensp; );<br>
+}<br>
+
+ Студент группи 103-ТК Сулімнеко М.О.
+    </body>
+        
+</html>
