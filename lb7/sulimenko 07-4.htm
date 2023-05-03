@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+     .div1{
+        border: 2px solid black;
+        height: 250pt;
+        width: 200pt;
+        justify-content: center;
+        background-color: rgb(216, 216, 216);
+     }
+     p{
+        font-weight:bold;
+     }
+     .all {
+        margin-left: 3%;
+        margin-right: 3%;
+     }
+     h1{
+        font-size: 15pt;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+     }
+     .col{
+        background-color: aqua;
+        width: 92%;
+        height: 10%;
+        font-size: 20pt;
+        justify-content: center;
+     }
+    </style>
+</head>
+<body>
+    <div weight="20%" class="div1">
+        <h1>Order Confirmation</h1>
+        <input type="text" name="bank number" placeholder="Bank account number" size="30" class="all">
+        <input type="text" name="personal number" placeholder="Personal user number" size="30" class="all"><br>
+        <p class="all">List</p>
+        <input type="checkbox" name="PC" class="all">PC
+        <input type="checkbox" name="phone" class="all">phone
+        <input type="checkbox" name="TV" class="all">TV
+        <input type="checkbox" name="tablet" class="all">tablet
+        <p class="all">Password</p>
+        <input type="password" size="30" class="all">
+        <select class="all">
+            <option>card</option>
+            <option>cash</option>
+        </select><br>
+        <input type="file" class="form-input" name="file"><br>
+        <input type="text" size="30" placeholder="Your comment" class="all">
+        <input type="button" name="submit-button" value="Save" class="col all">
+    </div>
+</body>
+</html>

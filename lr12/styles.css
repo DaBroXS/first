@@ -1,0 +1,33 @@
+
+.div1{
+    width: 250pt;
+    height: 400pt;
+    border: 2pt solid gray;   
+}
+.p1{
+    background-color: rgb(1, 175, 255);
+    height: 30pt;
+    text-align: center;
+    font-size: 16pt;
+    padding: 0;
+    margin: 0;
+    border-bottom:2pt solid gray;
+}
+.vid{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+.input{
+    height: 17pt;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+ .select{
+    width: 84%;
+    margin-left: 7%;
+    margin-right: 7%;
+    height: 21pt;
+ }
+ .p2{
+    font-weight: bold;
+ }
