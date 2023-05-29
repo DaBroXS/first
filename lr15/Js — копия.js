@@ -12,5 +12,5 @@ else if(x == 3){
     console.log("Berezen");
 }
 else {
-    console.log("tu daun v ded dom");
+    console.log("");
 }

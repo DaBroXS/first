@@ -30,15 +30,22 @@ a:link{
     color: blue;
     text-decoration: none;
 }
-a:active{
-    color: red;
-    text-decoration: none;
-}
-a:visited{
-    color: black;
+a:hover {
+    color: firebrick;
     text-decoration: underline;
 }
-a:hover{
-    color:blueviolet ;
-    text-decoration: none;
+
+a:active {
+    border: 1px solid blue;
+}
+
+.img1{
+    float: left;
+    width: 200px;
+    height: 200px;
+}
+.img2{
+    float: right;
+    width: 200px;
+    height: 200px;
 }
