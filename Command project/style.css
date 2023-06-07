@@ -1,0 +1,31 @@
+.vats {
+    font-family: 'Segoe UI';
+    color: crimson;
+    font-style: italic;
+}
+.velychko {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style:initial;
+    color:lightseagreen;
+}
+.gord{
+    color: blueviolet;
+    font-family: 'Varela Round', sans-serif;
+}
+.kyrychenko{
+    color: aqua;
+    font-style: normal;
+}
+.kondratenko{
+    color: forestgreen;
+    font-family: 'Times New Roman', Times, serif;
+}
+.Shpenkov{
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.sulimenko {
+    font-family:'Lucida Sans';
+    color: rgb(3, 172, 172);
+    text-decoration: underline;
+}
